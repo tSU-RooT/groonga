@@ -1337,13 +1337,17 @@ AC_MSG_CHECKING([whether package platform])
 AC_ARG_WITH(package-platform,
   [AS_HELP_STRING([--with-package-platform=PLATFORM],
     [install package platform related files. [default=no]
-     (supported package platforms: redhat, fedora)])],
+     (supported package platforms: redhat (redhat5, redhat6), redhat7, fedora)])],
   [package_platform="$withval"],
   [package_platform="no"])
 AC_MSG_RESULT($package_platform)
 
 AM_CONDITIONAL([REDHAT_PLATFORM],
-               [test "${package_platform}" = "redhat"])
+               [test "${package_platform}" = "redhat" -o \
+                     "${package_platform}" = "redhat5" -o \
+                     "${package_platform}" = "redhat6"])
+AM_CONDITIONAL([REDHAT7_PLATFORM],
+               [test "${package_platform}" = "redhat7"])
 AM_CONDITIONAL([FEDORA_PLATFORM],
                [test "${package_platform}" = "fedora"])
 
