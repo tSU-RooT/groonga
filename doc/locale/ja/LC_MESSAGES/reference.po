@@ -3692,58 +3692,31 @@ msgid "``インデックスの状態`` には下記の項目がハッシュ形�
 msgstr ""
 
 msgid "``flags``"
-msgstr ""
-
-msgid "指定されているフラグ値です。16進数で表現されています。"
-msgstr ""
+msgstr "指定されているフラグ値です。16進数で表現されています。"
 
 msgid "``max sid``"
-msgstr ""
-
-msgid "セグメントのうち最も大きなIDです。"
-msgstr ""
+msgstr "セグメントのうち最も大きなIDです。"
 
 msgid "``number of garbage segments``"
-msgstr ""
-
-msgid "ゴミセグメントの数です。"
-msgstr ""
+msgstr "ゴミセグメントの数です。"
 
 msgid "``number of array segments``"
-msgstr ""
-
-msgid "配列セグメントの数です。"
-msgstr ""
+msgstr "配列セグメントの数です。"
 
 msgid "``max id of array segment``"
-msgstr ""
-
-msgid "配列セグメントのうち最も大きなIDです。"
-msgstr ""
+msgstr "配列セグメントのうち最も大きなIDです。"
 
 msgid "``number of buffer segments``"
-msgstr ""
-
-msgid "バッファセグメントの数です。"
-msgstr ""
+msgstr "バッファセグメントの数です。"
 
 msgid "``max id of buffer segment``"
-msgstr ""
-
-msgid "バッファセグメントのうち最も大きなIDです。"
-msgstr ""
+msgstr "バッファセグメントのうち最も大きなIDです。"
 
 msgid "``max id of physical segment in use``"
-msgstr ""
-
-msgid "使用中の論理セグメントのうち最も大きなIDです。"
-msgstr ""
+msgstr "使用中の論理セグメントのうち最も大きなIDです。"
 
 msgid "``number of unmanaged segments``"
-msgstr ""
-
-msgid "管理されていないセグメントの数です。"
-msgstr ""
+msgstr "管理されていないセグメントの数です。"
 
 msgid "``total chunk size``"
 msgstr ""
@@ -3758,25 +3731,16 @@ msgid "使用中のチャンクセグメントのうち最も大きなIDです�
 msgstr ""
 
 msgid "``number of garbage chunk``"
-msgstr ""
-
-msgid "各チャンク毎のゴミの数です。"
-msgstr ""
+msgstr "各チャンク毎のゴミの数です。"
 
 msgid "``バッファの状態`` には下記の項目がハッシュ形式で出力されます。"
 msgstr ""
 
 msgid "``buffer id``"
-msgstr ""
-
-msgid "バッファIDです。"
-msgstr ""
+msgstr "バッファIDです。"
 
 msgid "``chunk size``"
-msgstr ""
-
-msgid "チャンクのサイズです。"
-msgstr ""
+msgstr "チャンクのサイズです。"
 
 msgid "``buffer term``"
 msgstr ""
@@ -3791,28 +3755,16 @@ msgid ""
 msgstr ""
 
 msgid "``buffer free``"
-msgstr ""
-
-msgid "バッファの空き容量です。"
-msgstr ""
+msgstr "バッファの空き容量です。"
 
 msgid "``size in buffer``"
-msgstr ""
-
-msgid "バッファの使用量です。"
-msgstr ""
+msgstr "バッファの使用量です。"
 
 msgid "``nterms``"
-msgstr ""
-
-msgid "バッファ内にある語の数です。"
-msgstr ""
+msgstr "バッファ内にある語の数です。"
 
 msgid "``nterms with chunk``"
-msgstr ""
-
-msgid "バッファ内にある語のうち、チャンクを使っている語の数です。"
-msgstr ""
+msgstr "バッファ内にある語のうち、チャンクを使っている語の数です。"
 
 msgid "``clearlock``"
 msgstr ""
