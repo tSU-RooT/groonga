@@ -12190,7 +12190,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"現在は、Linux 及びWindows上で動作します。make installしてもインストールは行わ"
+"現在は、GNU/Linux 及びWindows上で動作します。make installしてもインストールは行わ"
 "れません。"
 msgstr ""
 
